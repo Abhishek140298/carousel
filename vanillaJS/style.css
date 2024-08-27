@@ -1,0 +1,33 @@
+body{
+    margin:0
+ 
+}
+
+
+#carousel_box{
+    display: flex;
+   align-items: center;
+    overflow: hidden;
+width: 360px;
+
+}
+
+#carousel_sub_name{
+width: 300px;
+height: 300px;
+display: flex;
+flex-direction: row;
+
+transition: transform 0.5s ease;
+}
+button{
+    width: 30px;
+    height: 40px;
+    z-index: 1;
+}
+
+.images{
+    max-width: 290px;
+max-height: 290px;
+    margin: 5px;
+}
